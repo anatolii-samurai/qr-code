@@ -1,0 +1,59 @@
+body{
+    /* Desktop */
+max-width: 1440px;
+height: 960px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+    background: rgb(213, 225, 239);
+}
+.container {
+    margin: 0px auto;
+    width: 320px;
+    height: 499px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* card-border */
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    /* card-shadow */
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.qr-code {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius:10px;
+}
+
+h1 {
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 24px;
+    /* text-preset-1 */
+    color: rgb(31, 49, 79);
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+p {
+    text-align: center;
+    margin-top: 16px;
+    /* text-preset-2 */
+    color: rgb(104, 119, 141);
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+}
